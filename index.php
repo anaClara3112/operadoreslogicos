@@ -25,7 +25,7 @@
             echo "<p>" . $idade . "Não pode votar!</p>";
         } else if (($idade >= 16) && ($idade < 18)) {
             echo "<p>" . $idade . "Voto facultativo!</p>";
-        } else if (($idade > 18) && ($idade < 65)) {
+        } else if (($idade >= 18) && ($idade < 65)) {
             echo "<p>" . $idade . "O voto é obrigatório!</p>";
         } else if ($idade > 65) {
             echo "<p>" . $idade . "Voto facultativo!</p>";
